@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smart Shifts - User Schedule</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <div class="header">
+        <!-- user Header -->
+        <div class="logo-container">
+            <img src="SmartShift.png" alt="Smart Shifts Logo" class="logo">
+            <div class="name-slogan-container">
+                <h1>Smart Shifts - Superuser</h1>
+                <p>Your Workforce, Our Expertise</p>
+            </div>
+        </div>
+        <!-- user Navigation -->
+        <div class="user-nav-bar">
+            <a href="superuser.php">Dashboard</a>
+            <a href="user_schedules.php">Schedules</a>
+            <a href="#approvals">Approvals</a>
+            <a href="#settings">Settings</a>
+            <a href="logout.php">Logout</a>
+            <div class="profile-tab">
+                <a href="profile.php">Profile</a>
+                <img src="profile.png" alt="Profile" class="profile-pic">
+            </div>
+        </div>
+    </div>
+
+    <main class="schedule-container">
+        <h1>Your Schedule</h1>
+        <!-- Schedule Table -->
+        <table class="schedule-table">
+            <thead>
+                <tr>
+                    <th>Date</th>
+                    <th>Shift Start</th>
+                    <th>Shift End</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Repeat this row for each shift -->
+                <tr>
+                    <td>Mon, Dec 04</td>
+                    <td>08:00 AM</td>
+                    <td>05:00 PM</td>
+                </tr>
+            </tr>
+            <tr>
+                <td>Tue, Dec 05</td>
+                <td>10:00 AM</td>
+                <td>07:00 PM</td>
+            </tr>
+            <tr>
+                <td>Wed, Dec 06</td>
+                <td>10:00 AM</td>
+                <td>07:00 PM</td>
+            </tr>
+            <tr>
+                <td>Thu, Dec 07</td>
+                <td>09:00 AM</td>
+                <td>03:00 PM</td>
+            </tr>
+            <tr>
+                <td>Fri, Dec 08</td>
+                <td>07:00 AM</td>
+                <td>07:00 PM</td>
+            </tr>
+            <tr>
+                <td>Sat, Dec 09</td>
+                <td>09:00 AM</td>
+                <td>03:00 PM</td>
+            </tr>
+
+                <!-- More rows as needed -->
+            </tbody>
+        </table>
+    </main>
+
+    <footer class="footer">
+        <p>&copy; 2023 Smart Shifts</p>
+    </footer>
+
+</body>
+</html>

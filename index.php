@@ -1,0 +1,156 @@
+    <!DOCTYPE html>
+    <html lang="en">
+
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Smart Shifts</title>
+        <link rel="stylesheet" href="styles.css">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+    </head>
+
+    <body>
+        <!----------header------------>
+        <div class="header">
+            <div class="logo-container">
+                <img src="SmartShift.png" alt="Smart Shifts Logo" class="logo">
+                <div class="name-slogan-container">
+                    <h1>Smart Shifts</h1>
+                    <p>Your Workforce, Our Expertise</p>
+                </div>
+            </div>
+
+            <!----------navigation------------>
+            <div class="nav-bar">
+                <a href="#home">Home</a>
+                <a href="#about">About Us</a>
+                <div class="dropdown">
+                    <a href="#services">Services</a>
+                    <div class="dropdown-content">
+                        <a href="#schedule-management">Schedule Management</a>
+                        <a href="#leave-requests">Leave Requests</a>
+                        <a href="#shift-exchanges">Shift Exchanges</a>
+                        <a href="#analytics">Analytics & Reporting</a>
+                        <a href="#user-management">User Management</a>
+                        <a href="#payroll-management">Payroll Management</a>
+                    </div>
+                </div>
+                <a href="#contact">Contact Us</a>
+                <a href="login.php">Login</a>
+               <!-- <a href="signup.html">Sign Up</a> -->
+            </div>
+        </div>
+
+        <!----------hero/home------------>
+        <div class="hero" id="home">
+            <div class="hero-content">
+                <h1>Empowering Your Workforce for Success</h1>
+                <p>Innovative Scheduling Solutions for Modern Businesses</p>
+                <a href="login.html" class="button">Get Started</a>
+            </div>
+        </div>
+        <div class="section" id="about">
+            <div class="about-content">
+                <h2>Who We Are</h2>
+                <p>We believe in the power of technology to transform the workplace, and our mission is to empower
+                    businesses to achieve their full potential through efficient workforce management. Our suite of tools is
+                    designed to streamline operations, reduce administrative burdens, and provide valuable insights into
+                    workforce performance and compliance. With Smart Shifts, businesses can expect a reduction in scheduling
+                    conflicts, improved employee satisfaction, and a more agile and responsive workforce.</p>
+                <p>At Smart Shifts, we are committed to innovation, excellence, and customer satisfaction. We continuously
+                    work to improve our platform, ensuring that it remains at the cutting edge of workforce management
+                    technology. Our team of experienced professionals is dedicated to providing exceptional support and
+                    training, ensuring that your transition to Smart Shifts is smooth and your experience is unparalleled.
+                </p>
+                <p>Join the Smart Shifts family today and experience a new era of workforce management. Discover the
+                    difference that a truly smart scheduling solution can make for your business.</p>
+            </div>
+            <img src="whoweare.png" alt="About Us" class="about-image">
+        </div>
+
+        <!----------services------------>
+        <section class="services">
+            <div class="service" id="service1">
+                <img src="service1.png" alt="Efficient Scheduling">
+                <h3>Efficient Scheduling</h3>
+                <p>Optimize your workforce scheduling with our efficient tools, ensuring the right people are in the right place at the right time.</p>
+            </div>
+            <div class="service" id="service2">
+                <img src="service2.png" alt="Analytics & Reporting">
+                <h3>Analytics & Reporting</h3>
+                <p>Gain valuable insights into workforce performance and trends with our comprehensive analytics and reporting tools.</p>
+            </div>
+            <div class="service" id="service3">
+                <img src="service3.png" alt="Mobile Accessibility">
+                <h3>Mobile Accessibility</h3>
+                <p>Access schedules, submit leave requests, and manage your workforce on the go with our mobile-friendly platform.</p>
+            </div>
+            <div class="service" id="service4">
+                <img src="service4.png" alt="Leave Requests">
+                <h3>Leave Requests</h3>
+                <p>Streamline leave management with our automated leave request system, ensuring transparency and efficiency.</p>
+            </div>
+            <div class="service" id="service5">
+                <img src="service5.png" alt="Shift Management">
+                <h3>Shift Management</h3>
+                <p>Manage and optimize shift rotations with ease, accommodating employee preferences and business needs.</p>
+            </div>
+            <div class="service" id="service6">
+                <img src="service6.png" alt="Payroll Integration">
+                <h3>Payroll Integration</h3>
+                <p>Simplify payroll processing with seamless integration, ensuring accuracy and saving time.</p>
+            </div>
+        </section>
+       
+
+        <!----------contact------------>
+        
+        <div class="demo-request-container">
+            <div class="demo-image">
+              <img src="getintouch.png" alt="Friendly staff at office">
+            </div>
+            <div class="demo-form">
+              <h2>Schedule your <span class="highlight">free demo</span></h2>
+              <p>Pick a time that works best for you and your team to learn more.</p>
+              <form id="demoRequestForm">
+                <div class="form-row">
+                  <input type="text" id="firstName" name="firstName" placeholder="First Name" required>
+                  <input type="text" id="lastName" name="lastName" placeholder="Last Name" required>
+                </div>
+                <div class="form-row">
+                  <input type="text" id="restaurantName" name="restaurantName" placeholder="Company Name" required>
+                  <select id="numberOfLocations" name="numberOfLocations">
+                    <option value="">Number of locations</option>
+                    <!-- Add options here -->
+                  </select>
+                </div>
+                <div class="form-row">
+                  <input type="email" id="email" name="email" placeholder="Email" required>
+                  <input type="tel" id="mobileNumber" name="mobileNumber" placeholder="Mobile Number" required>
+                </div>
+                <button type="submit">Request demo</button>
+                <p class="terms">By clicking "Request demo" you agree to our <a href="#">Terms</a> and acknowledge our <a href="#">Privacy Policy</a>. You can opt out of communications at any time.</p>
+              </form>
+            </div>
+          </div>
+
+        <!----------footer------------>
+        <div class="footer">
+            <p>&copy; 2023 Smart Shifts</p>
+        </div>
+
+        <!----------chat-box------------>
+        <div class="chat-box">
+            <i class="fa-solid fa-headset"></i>
+        </div>
+
+        <!----------javascript------------>
+        <script src="script.js"></script>
+
+   
+
+
+    </body>
+
+    </html>
